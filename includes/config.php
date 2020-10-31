@@ -2,6 +2,7 @@
 
 /**
  * Used to store website configuration information.
+ * updated site URL
  *
  * @var string or null
  */
@@ -9,7 +10,7 @@ function config($key = '')
 {
     $config = [
         'name' => 'Simple PHP Website',
-        'site_url' => '',
+        'site_url' => '.',
         'pretty_uri' => false,
         'nav_menu' => [
             '' => 'Home',
